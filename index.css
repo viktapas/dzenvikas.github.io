@@ -1,0 +1,104 @@
+body{
+	color: #123456;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	margin: 0px;
+}
+#topBar{
+	background-color: #263238;
+	width:            100%;
+	position:         fixed;
+	top:			  0px;
+	height:           50px;
+	margin:			  0px;
+}
+#topBar a{
+	color:            #fff;
+	font-size:        14px;
+	padding:          17px 20px;
+	text-decoration:  none;
+}
+.topMenu{
+	margin-left:150px;
+
+}
+#topBar img{
+	position: fixed;
+	widht: 50px;
+}
+#strip1{
+	margin: 0px;
+	background-color: #FFC107;
+	height: 		  700px;
+}
+#cover{
+	margin: 0px;
+	float: right; 
+}
+#strip2{
+	background-color: #FF9100;
+	width:            100%;
+	height: 		  750px;
+	top:              400px;
+	/*padding-top: 80px;
+	padding-left: 30px;*/
+	border: 0px;
+	color: #37474F;
+	text-align: center;
+	font-weight: bold; 
+}
+
+.topMenu a:hover{
+	background-color: #303c42;
+	color:#ff8080 !important;
+}
+.heading_s2{
+	font-size: 28px;
+	color: white;
+	padding: 50px 20px 0px 20px;
+	margin: 0px;
+}
+.introText{
+	 float: left;
+	 margin: 0px;
+	 padding: 30px;
+	 font-family: sans-serif;
+	 font-size: 28px;
+	 font-weight: normal;
+	 color: #263238;
+}
+#strip2 img{
+	border: 0px;
+	padding: 2px;
+}
+#python_pic{
+	width: 250px;
+	height: 250px;
+	background-color: #f7f7f7;
+	float: left;
+	padding: 20px;
+	margin-left: 30px;
+}
+#html_pic{
+	width: 250px;
+	height: 250px;
+	background-color: #f7f7f7;
+	float: left;
+	padding: 20px;
+	margin-left: 30px; 
+}
+#css_pic{
+	width: 250px;
+	height: 250px;
+	background-color: #f7f7f7;
+	float: left;
+	padding: 20px;
+	margin-left: 30px;
+}
+#java_pic{
+	width: 250px;
+	height: 250px;
+	background-color: #f7f7f7;
+	float: left;
+	padding: 20px;
+	margin-left: 30px;
+}
