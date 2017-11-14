@@ -1,104 +1,109 @@
+/*dzenvikas.com___index.css*/
+
 body{
-	color: #123456;
-	font-family: Verdana, Geneva, Arial, sans-serif;
-	margin: 0px;
-}
-#topBar{
-	background-color: #263238;
-	width:            100%;
-	position:         fixed;
-	top:			  0px;
-	height:           50px;
-	margin:			  0px;
-}
-#topBar a{
-	color:            #fff;
-	font-size:        14px;
-	padding:          17px 20px;
-	text-decoration:  none;
-}
-.topMenu{
-	margin-left:150px;
-
-}
-#topBar img{
-	position: fixed;
-	widht: 50px;
-}
-#strip1{
-	margin: 0px;
-	background-color: #FFC107;
-	height: 		  700px;
-}
-#cover{
-	margin: 0px;
-	float: right; 
-}
-#strip2{
-	background-color: #FF9100;
-	width:            100%;
-	height: 		  750px;
-	top:              400px;
-	/*padding-top: 80px;
-	padding-left: 30px;*/
-	border: 0px;
-	color: #37474F;
-	text-align: center;
-	font-weight: bold; 
+	font: verdana,arial,helvetica,sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+    background-color: #f7f7f7;
+    margin: 0px;
 }
 
-.topMenu a:hover{
-	background-color: #303c42;
-	color:#ff8080 !important;
+div {
+	display: block;
 }
-.heading_s2{
-	font-size: 28px;
-	color: white;
-	padding: 50px 20px 0px 20px;
-	margin: 0px;
+/*#base_bg{
+	
+
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px dotted gray;
+    padding: 10px 10px 10px 10px;
+}*/
+
+#heading{
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: 14px;
+	color: #efefef;
+	background-color: #efe8e8;
+
+	width: 80%;
+    /*width: 1000px;*/
+	margin-left: 10%;
+	margin-right: 10%;
+    height: auto;
+	padding-top: 20px;
+	padding-bottom: 5px;
+
+    /*
+    line-height: 18px;*/
 }
-.introText{
-	 float: left;
-	 margin: 0px;
-	 padding: 30px;
-	 font-family: sans-serif;
-	 font-size: 28px;
-	 font-weight: normal;
-	 color: #263238;
+#top_bar{
+	display: inline-block;
+	width: auto;
+	padding: 0px 5px;
 }
-#strip2 img{
+
+#top_bar.logo{
+	width: auto;
+	height: auto;
+}
+
+#top_bar img{
+	width: 40px;
+	height: 40px;
 	border: 0px;
-	padding: 2px;
+	margin: 0px;
+	padding: 0px 5px;
 }
-#python_pic{
-	width: 250px;
-	height: 250px;
-	background-color: #f7f7f7;
-	float: left;
-	padding: 20px;
-	margin-left: 30px;
+
+#top_bar.menu{
+	padding: 0px;
+	margin-left: 150px;
 }
-#html_pic{
-	width: 250px;
-	height: 250px;
-	background-color: #f7f7f7;
-	float: left;
-	padding: 20px;
-	margin-left: 30px; 
+
+.top_bar_ul{
+	text-align: left;
+	font-weight: normal;
+	text-transform: uppercase;
 }
-#css_pic{
-	width: 250px;
-	height: 250px;
-	background-color: #f7f7f7;
-	float: left;
-	padding: 20px;
-	margin-left: 30px;
+
+.top_bar_li{
+	display: inline-block;
+	font-weight: bold;
 }
-#java_pic{
-	width: 250px;
-	height: 250px;
-	background-color: #f7f7f7;
-	float: left;
-	padding: 20px;
-	margin-left: 30px;
+
+.top_bar_li a:link{
+	color: #424242;
+	text-decoration: none;
+}
+.top_bar_li a:hover{
+	color: #0077ff;
+	text-decoration: none;
+}
+
+.top_bar_span{
+	color: #8c8c8c;
+	font-weight: bold;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+/*hr{
+	width: auto;
+	display: block;
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin: 0.5em 20%;
+    border-style: inset;
+    border-width: 1px;
+
+}*/
+
+#separator_line{
+	background-color: #b7b7b7;
+	width: auto;
+	height: 5px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
