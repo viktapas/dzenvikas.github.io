@@ -60,14 +60,14 @@ body{
 }
 
 .top_bar_ul a{
-	color: white;
+	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 10px 10px;
 }
 
 .top_bar_ul a:link{
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 }
 .top_bar_ul a:hover{
