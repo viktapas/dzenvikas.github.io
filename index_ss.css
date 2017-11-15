@@ -39,7 +39,7 @@ body{
 
 #hire_me a:hover{
 	color: #fff;
-	background-color: #E65100;
+	background-color: #E53935;
 }
 
 .top_bar_ul a{
@@ -55,7 +55,7 @@ body{
 }
 .top_bar_ul a:hover{
 	color: #FFB74D;
-	background-color: #E53935;
+	background-color: #4f4f4f;
 	text-decoration: none;
 }
 
