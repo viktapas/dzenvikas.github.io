@@ -34,12 +34,12 @@ body{
 	text-align: right;
 	color: #000;
 	padding: 5px 5px;
-	background-color: #CE93D8;
+	background-color: #8BC34A;
 }
 
 #hire_me a:hover{
 	color: #fff;
-	background-color: #E53935;
+	background-color: #7fb243;
 }
 
 .top_bar_ul a{
@@ -60,7 +60,7 @@ body{
 }
 
 #separator{
-	background-color: #d1d1d1;
+	background-color: #E0E0E0;
 	width: auto;
 	height: 3px;
 	margin-left: 10%;
