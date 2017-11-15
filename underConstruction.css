@@ -5,17 +5,4 @@ body{
 
 #alert-image{
 	text-align: center;
-
-/*
-	position: absolute;
-	display: block;
-	left: 50%;*/
-}
-
-#alert-image img{
-
-
-/*
-	position: relative;
-	left: -50%;*/
 }

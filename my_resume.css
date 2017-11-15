@@ -49,14 +49,19 @@ body{
 
 #hire_me a{
 	margin-left: 12%;
-	color: #000;
 	padding: 5px 5px;
+	color: #000;
 	background-color: #FFB74D;
 }
 
 #hire_me a:hover{
-	color: #fff;
+	color: #000;
 	background-color: #E65100;
+}
+
+#my_resume a{
+	background-color: #212121;
+	color: #FFB74D;
 }
 
 .top_bar_ul a{
@@ -71,8 +76,8 @@ body{
 	text-decoration: none;
 }
 .top_bar_ul a:hover{
-	color: #FFB74D;
-	background-color: #4f4f4f;
+	color: #fff;
+	background-color: #515151;
 	text-decoration: none;
 }
 
@@ -110,8 +115,8 @@ body{
 }
 
 .vert_nav_bar_list li a:hover{
-	background-color: #555;
-	color: white;
+	background-color: #616161;
+	color: #FFB74D;
 }
 
 #disp_content{
@@ -124,11 +129,8 @@ body{
 }
 
 #disp_content {
-	text-align: left;
-	height: all;
+	text-align: center;
 }
-#disp_content h3, h4, p {
-	padding-left: 3%;
-	padding-right: 10%;
+#disp_content img{
 
 }
