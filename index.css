@@ -13,38 +13,34 @@ body{
     font-size: 14px;
 	color: #fff;
 	background-color: #424242;
-
-	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
     height: auto;
 	padding-top: 10px;
-	padding-bottom: 6px;
+	padding-bottom: 10px;
 }
 
 #master_logo{
 	position: absolute;
-	width: 120px;
-	height: auto;
-	margin-top: 5px; 
+	top: 0;
+	width: auto;
+	text-align: left;
+	width: 15%;
+	max-height: 8% 
 }
 
 #master_logo img{
-	width: auto;
-	height: 25px;
-	border: 0px;
+	width: 50%;
+	padding-left: 25%;
+	height: 50%;
 	margin: 0px;
-	margin-left: 50%;
 }
 
 .top_bar_ul{
 	position: relative;
 	text-align: right;
-	width: 65%;
-	padding-right: 10px;
+	padding-right: 5%;
 	font-weight: normal;
-	margin-bottom: 10px;
-	left: 17%;
 }
 
 #hire_me a{
