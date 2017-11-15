@@ -1,3 +1,4 @@
+/*index_ss.css*/
 /*dzenvikas.com___index.css*/
 
 body{
@@ -9,63 +10,40 @@ body{
 }
 
 #heading{
+	height: 30px;
     white-space: nowrap;
     font-size: 14px;
-	color: #efefef;
+	color: #fff;
 	background-color: #424242;
-
-	width: 80%;
 	margin-left: 10%;
 	margin-right: 10%;
     height: auto;
 	padding-top: 10px;
-	padding-bottom: 6px;
-}
-
-#master_logo{
-	position: absolute;
-	width: 120px;
-	height: auto;
-	margin-top: 5px; 
-}
-
-#master_logo img{
-	width: auto;
-	height: 25px;
-	border: 0px;
-	margin: 0px;
-	margin-left: 50%;
+	padding-bottom: 10px;
 }
 
 .top_bar_ul{
 	position: relative;
 	text-align: right;
-	width: 65%;
-	padding-right: 10px;
+	padding-right: 5%;
 	font-weight: normal;
-	margin-bottom: 10px;
-	left: 19%;
+	width: auto;
 }
 
 #hire_me a{
-	margin-left: 12%;
-	padding: 5px 5px;
+	text-align: right;
 	color: #000;
+	padding: 5px 5px;
 	background-color: #FFB74D;
 }
 
 #hire_me a:hover{
-	color: #000;
+	color: #fff;
 	background-color: #E65100;
 }
 
-#my_apps a{
-	background-color: #212121;
-	color: #FFB74D;
-}
-
 .top_bar_ul a{
-	color: white;
+	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 10px 10px;
@@ -76,8 +54,8 @@ body{
 	text-decoration: none;
 }
 .top_bar_ul a:hover{
-	color: #fff;
-	background-color: #515151;
+	color: #FFB74D;
+	background-color: #4f4f4f;
 	text-decoration: none;
 }
 
@@ -115,8 +93,8 @@ body{
 }
 
 .vert_nav_bar_list li a:hover{
-	background-color: #616161;
-	color: #FFB74D;
+	background-color: #555;
+	color: white;
 }
 
 #disp_content{
@@ -136,4 +114,15 @@ body{
 	padding-left: 3%;
 	padding-right: 10%;
 
+}
+
+#disp_content.contact{
+	text-align: center;
+	height: all;
+	padding-top: 5%;
+}
+
+#disp_content.under_constr {
+	text-align: center;
+	height: all;
 }
