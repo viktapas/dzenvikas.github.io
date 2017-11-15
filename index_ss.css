@@ -34,7 +34,7 @@ body{
 	text-align: right;
 	color: #000;
 	padding: 5px 5px;
-	background-color: #FFB74D;
+	background-color: #CE93D8;
 }
 
 #hire_me a:hover{
@@ -55,7 +55,7 @@ body{
 }
 .top_bar_ul a:hover{
 	color: #FFB74D;
-	background-color: #4f4f4f;
+	background-color: #E53935;
 	text-decoration: none;
 }
 
